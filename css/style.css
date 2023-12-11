@@ -9,9 +9,9 @@ body {
   line-height: 1.5;
 }
 .page-wrapper {
-  /* width: 75%;
+  width: 100%;
   display: inline-block;
-  margin-left: 20px; */
+  margin-left: 1px;
 }
 
 h1,
@@ -28,6 +28,8 @@ h6
 p {
   margin: 0;
 }
+
+
 /*Menu css*/
 .menu{
   display: flex;
@@ -47,13 +49,26 @@ p {
   border: 1px solid red;
 }
 
-#title{
-  flex: 10%;
+#WorkSkills{
+  display:grid;
   border-right: 1px solid black;
-  margin-right: 10px;
+  margin-right: 1%;
+  width: 80px;
+  text-align:center;
 }
 
-#childrens{
+#Work.{
+  display:flex;
+  margin-right: 20px;
+}
+
+#skills.{
+  margin-right: 30px;
+}
+
+/*Work & Skills flex css*/
+
+#WorkSection{
   flex: 70%
 
 }
@@ -73,36 +88,6 @@ p {
   border: 1px solid brown;
 }
 
-/*ContactMe flex css*/
-#ContactMe{
-  display: flex;
-  width: 100%;
-  border: 1px solid red;
-}
-
-#Tel{
-  flex: 25%;
-  border-right: 1px solid black;
-  margin-right: 10px;
-}
-
-#Email{
-  flex: 25%;
-  border-right: 1px solid black;
-  margin-right: 10px;
-}
-
-#Github{
-  flex: 25%;
-  border-right: 1px solid black;
-  margin-right: 10px;
-}
-
-#LinkedIn{
-  flex: 25%;
-  border-right: 1px solid black;
-  margin-right: 10px;
-}
 
 /*Main Heading  css*/
 h1{
@@ -111,16 +96,20 @@ h1{
 }
 /*Mainbanneer css*/
   h2{
-    text-align:center;
-    height: 100px;
+    text-align:left;
+    height: 100;
     margin: 5px
 
 }
 /*AboutMe css*/
+
+.page-section{
+  border: 1px solid red
+}
 h3{
-  background-color: lightgray;
-  height: 200px;
-  margin: 10px
+  height: 10px;
+  margin: 10px;
+  text-align: center;
 }
 
 /*Portfolio css*/
@@ -132,7 +121,12 @@ h4{
 
 /*Contact css*/
 h5{
-  background-color: lightslategrey;
+  padding: .5px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  justify-content: space-around;
+  font-size:20px
 
 }
 
@@ -140,44 +134,78 @@ h5{
 h6{
   background-color: lightslategrey;
   height: 10px;
-  margin: 10px;
-}
-
-.hero-banner{
-    max-height: 100px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/codin.gif");
-    background-size: cover;
-    background-position: center;
-}
-/*Work Grid code*/
-.grid-Work{
-  /* display: grid;
-  grid-template-columns: auto auto;
-  background-color: #2196F3;
-  padding: 10px; */
-  border: 1px solid red
-}
-
-
-/* .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 5px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  margin: -90px;
+  font-size: 20px;
+  justify-content: space-around;
   text-align: center;
-} */
+}
 
-/*ContactMe css */
+p{
+  font-size:14px;
+  padding:1px;
+}
+.hero-banner{
+  width:100%;
+  height: 300px;
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat:repeat;
+  display:flex;
+
+}
+/*Heroe Banner css*/
+
+#Profilepic{
+  flex: 20%;
+  border-right: 1px solid black;
+  background-image:url(../images/IMG_0038.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat:repeat;
+  display:flex;
+
+}
+
+#Content{
+  flex: 80%;
+
+}
+
+/*ContactMe/Footeer css */
 .footer h5 {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   background-color: darkgrey;
+  justify-content: space-around;
+  font size: 20px;
 }
 
-.footer h5 {
-  font-size: 20px;
+#Tel:hover{
+  background-color: lightblue;
+}
+
+#Email:hover{
+  background-color: lightblue;
+}
+
+#Github:hover{
+  background-color: lightblue;
+}
+
+#LinkedIn:hover{
+  background-color: lightblue;
+  
+}
+.Contact{
+  display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.Contact li{
+  display: inline;
+  border-bottom-style: solid;
 }
