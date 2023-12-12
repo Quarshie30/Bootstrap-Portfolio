@@ -33,10 +33,11 @@ p {
 /*Menu css*/
 .menu{
   display: flex;
-    justify-content: space-around;
-    color: whitesmoke;
-    background-color: slategray;
-    align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  padding: 1px;
+  box-shadow: 8px 5px;
 }
 
 .menu li{
