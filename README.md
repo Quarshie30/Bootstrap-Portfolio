@@ -16,7 +16,6 @@ This repository contains the HTML and CSS code for Eyram Tetteh's web developer 
 * [Credits](#credits)
 * [License](#license)
 * [Features](#Features)
-* [Contribution](#Contribution)
 
 ## Installation
 
@@ -87,6 +86,4 @@ SOFTWARE.
 - **Portfolio:** Main body holding content and skills
   
 - **Footer:** A footer section displaying contact details
-  
-## Contribution
 
