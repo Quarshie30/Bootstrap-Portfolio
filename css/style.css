@@ -168,7 +168,7 @@ p{
 /*Heroe Banner css*/
 
 #Profilepic{
-  flex: 20%;
+  flex: 8%;
   border-right: 1px solid black;
   background-image:url(../images/IMG_0038.jpg);
   background-position: center;
